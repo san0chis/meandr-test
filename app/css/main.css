@@ -454,6 +454,25 @@ a:active {
   color: #f8a46a;
 }
 
+.logo {
+  position: fixed;
+  top: 25px;
+  right: 35px;
+  background-image: url(http://phomka.ru/img/design/logo_phomka2.svg);
+  width: 150px;
+  height: 25px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  z-index: 10;
+  -webkit-transform-origin: top right;
+      -ms-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: rotateZ(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotateZ(-90deg);
+}
+
 .header {
   margin: 165px auto;
   width: 48em;

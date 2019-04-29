@@ -37,4 +37,4 @@ https://webfonts.pro/base-web-fonts/sans-serif-grotesque/217-din-pro.html
 Будет ли обратная связь по тестовому заданию?
 - Всем, кто выполнит тестовое задание, мы дадим обратную связь вне зависимости от того, подойдёт нам человек или нет.
 
-[Выполненное задание](http://temp.phomka.ru/meandr/)
+ :sparkles: [Выполненное задание](http://temp.phomka.ru/meandr/) :sparkles: 

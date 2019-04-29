@@ -51,12 +51,12 @@ gulp.task('code', function() {
 });
 
 gulp.task('rsync', function() {
-	return gulp.src('_site/**')
+	return gulp.src('app/**')
 	.pipe(rsync({
-		root: '_site',
-		hostname: 'san0ch6v@san0ch6v.beget.tech',
-		destination: 'temp.phomka.ru/public_html/meandr/',
-		include: ['*.htaccess'], // Includes files to deploy
+		root: 'app/',
+		hostname: 'username@yousite.com',
+		destination: 'yousite/public_html/',
+		// include: ['*.htaccess'], // Includes files to deploy
 		exclude: ['**/Thumbs.db', '**/*.DS_Store'], // Excludes files from deploy
 		recursive: true,
 		archive: true,
